@@ -1,57 +1,108 @@
-label{
-    display: flex;
-    padding: 15px;
-}
-
-h1{
-    font-family:Georgia;
-    color: #878484ee;
-    position: relative;
-    text-align: center;
-    top: 15px;
-}
-
-p{
-    font-family: serif;
-    position: relative;
-    left: 55px;
-    color: #878484ee;
-}
-
 body{
-    background-color: #cccc;
+    background-color: #dbdbdbf7;
 }
 
-.container{
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 795px;
+}
+
+#facebook-logo img{
+    height: 280px;
+    display: block;
+    margin-left:-1500px;
+}
+
+#unico{
+    margin-top: 105px;
+}
+
+#block{
+    display: block;
+    margin-left: 59px;
+    margin-top: 85px;
+}
+
+form{
+    background-color:#fafafa;
+    width: 1289px;
+    height: 1000px;
+    border-radius: 15px;
+    margin-left: 155px;
+}
+
+form input{
+    padding: 15px;
+    font-size: 85px;
+    border-radius: 15px;
+    border: 1px solid #dbdbdbf7;
+    width: 1000px;
+    margin-left: 105px;
+    margin-top: 100px;
+}
+
+
+form [type=submit]{
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 1px solid blue;
+    margin-left: 59px;
+    margin-top: 85px;
+}
+
+.link a,input{
+    display: block;
+}
+
+#green{
+    background-color: green;
+}
+
+#a{
+    margin-left: 420px;
+    position: relative;
+    top: 45px;
+    font-size: 45px;
+    text-decoration: none;
+    color: blue;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#boldd{
+    position: relative;
+    top: 600px;
+    left: -1200px;
+    text-decoration: none;
+    font-size:35px ;
+}
+
+.container-big{
+    font-size: 55px;
     background-color: #fff;
-    width: 805px;
-    height: 700px;
     position: relative;
-    left: 200px;
+    bottom: -550px;
 }
 
-.container-form{
-    position: relative;
-    left: 85px;
+.container-big a{
+    color:#000 ;
+    text-decoration: none;
+    display: flex;
+    height:500px;
 }
 
-input{
-    border-bottom: 2px solid #eeee;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+.container-big li{
+    margin-left: 500px;
+    margin-top: 100px;
 }
 
-.submit{
-    padding: 25px;
-    position: relative;
-    top:45px;
-    left: 250px;
-    font-size: 35px;
-    color: #878484ee;
-}
 
-.submit:hover{
-    background-color: #cccc;
-    cursor: pointer;
+.container-big ul{
+    margin-left: 500px;
 }
